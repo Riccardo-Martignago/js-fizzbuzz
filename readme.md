@@ -1,4 +1,4 @@
-Scrivi un programma che stampi in console i numeri da 1 a 100,
+"Scrivi un programma che stampi in console i numeri da 1 a 100,
 ma che per i multipli di 3 stampi “Fizz” al posto del numero e
 per i multipli di 5 stampi “Buzz”.
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
@@ -10,4 +10,12 @@ Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 BONUS 2:
-Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna."
+
+// Problema scomposto \\
+Creo un ciclo for per stampare im console i numeri da 1 fino al raggiungimento dei 100.
+    Creo un if dove:
+        Divido i numeri per 3 e 5, se danno resto 0 sia con 3 che con 5 stampo FizzBuzz.
+        Divido i numeri per 3 e se da resto 0 stampo Fizz.
+        Divido i numeri per 5 divido per e se da resto 0 stampo Buzz.
+        Altrimenti stampo il numero.
